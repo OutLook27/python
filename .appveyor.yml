@@ -9,7 +9,7 @@ environment:
       variant: windowsservercore-ltsc2016
     - version: 2.7
       variant: windowsservercore-ltsc2016
-#60997db3a5fa35b877ed3f162b2774b3384c3598430a954c8ab40c
+#60997db3a5f430b877ee27092d236bac3e44359447094c8ab40c
 install:
   - ps: |
       [Environment]::SetEnvironmentVariable('dockerImage', ('python:{0}' -f $env:version), [EnvironmentVariableTarget]::Process);
